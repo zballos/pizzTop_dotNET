@@ -35,11 +35,15 @@
   <ItemGroup>
     <Compile Include="Entities\Cliente.cs" />
     <Compile Include="Entities\Endereco.cs" />
+    <Compile Include="Entities\Pedido.cs" />
+    <Compile Include="Entities\Produto.cs" />
+    <Compile Include="Entities\TipoProduto.cs" />
+    <Compile Include="Interfaces\Repository\IClienteRepository.cs" />
+    <Compile Include="Interfaces\Repository\IRepository.cs" />
+    <Compile Include="Interfaces\Services\IClienteService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Interfaces\Repository\" />
-    <Folder Include="Interfaces\Services\" />
     <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
