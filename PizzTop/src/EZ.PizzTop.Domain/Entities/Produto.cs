@@ -15,6 +15,8 @@ namespace EZ.PizzTop.Domain.Entities
         public double Valor { get; set; }
         public string Descricao { get; set; }
         public Guid TipoProdutoId { get; set; }
+
+        // Navigation property
         public virtual TipoProduto TipoProduto { get; set; }
         public virtual ICollection<Pedido> Pedidos { get; set; }
     }

@@ -39,6 +39,8 @@
     <Compile Include="Entities\Produto.cs" />
     <Compile Include="Entities\TipoProduto.cs" />
     <Compile Include="Interfaces\Repository\IClienteRepository.cs" />
+    <Compile Include="Interfaces\Repository\IPedidoRepository.cs" />
+    <Compile Include="Interfaces\Repository\IProdutoRepository.cs" />
     <Compile Include="Interfaces\Repository\IRepository.cs" />
     <Compile Include="Interfaces\Services\IClienteService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

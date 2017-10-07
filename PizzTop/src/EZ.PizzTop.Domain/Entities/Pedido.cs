@@ -15,6 +15,8 @@ namespace EZ.PizzTop.Domain.Entities
         public Guid ClienteId { get; set; }
         public double ValorTotal { get; set; }
         public int Situacao { get; set; } // novo, em andamento, saiu para entrega, entregue
+
+        // Navigation property
         public virtual ICollection<Produto> Produtos { get; set; }
         public virtual Cliente Cliente { get; set; }
     }

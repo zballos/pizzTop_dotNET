@@ -20,6 +20,8 @@ namespace EZ.PizzTop.Domain.Entities
         public string Latitude { get; set; }
         public string Longitude { get; set; }
         public Guid ClienteId { get; set; }
+
+        // Navigation property
         public virtual Cliente Cliente { get; set; }
     }
 }

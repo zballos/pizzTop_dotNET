@@ -17,6 +17,8 @@ namespace EZ.PizzTop.Domain.Entities
         public string CPF { get; set; }
         public DateTime DataCadastro { get; set; }
         public bool Ativo { get; set; }
+
+        // Navigation property
         public virtual ICollection<Endereco> Enderecos { get; set; }
         public virtual ICollection<Pedido> Pedidos { get; set; }
     }
