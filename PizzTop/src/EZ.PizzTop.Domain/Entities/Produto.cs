@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace EZ.PizzTop.Domain.Entities
 {
@@ -15,6 +16,6 @@ namespace EZ.PizzTop.Domain.Entities
         public string Descricao { get; set; }
         public Guid TipoProdutoId { get; set; }
         public virtual TipoProduto TipoProduto { get; set; }
-
+        public virtual ICollection<Pedido> Pedidos { get; set; }
     }
 }

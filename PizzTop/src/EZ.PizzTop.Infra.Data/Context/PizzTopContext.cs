@@ -39,6 +39,9 @@ namespace EZ.PizzTop.Infra.Data.Context
 
             modelBuilder.Configurations.Add(new ClienteConfiguration());
             modelBuilder.Configurations.Add(new EnderecoConfiguration());
+            modelBuilder.Configurations.Add(new TipoProdutoConfiguration());
+            modelBuilder.Configurations.Add(new ProdutoConfiguration());
+            modelBuilder.Configurations.Add(new PedidoConfiguration());
 
             base.OnModelCreating(modelBuilder);
         }
