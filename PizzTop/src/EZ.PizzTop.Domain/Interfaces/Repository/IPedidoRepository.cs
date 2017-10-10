@@ -9,6 +9,7 @@ namespace EZ.PizzTop.Domain.Interfaces.Repository
         //double CalculaTotalPedido();
         IEnumerable<Pedido> ObterPedidosPorCliente(Guid clienteId);
 
+        IEnumerable<Pedido> ObterPedidosPeloValorTotal(double valor);
         //Pedido ObterPorProduto(Guid guid);
     }
 }
