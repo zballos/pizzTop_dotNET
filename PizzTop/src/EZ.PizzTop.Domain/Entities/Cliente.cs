@@ -21,5 +21,15 @@ namespace EZ.PizzTop.Domain.Entities
         // Navigation property
         public virtual ICollection<Endereco> Enderecos { get; set; }
         public virtual ICollection<Pedido> Pedidos { get; set; }
+
+        /*
+        public bool IsValid()
+        {
+            ValidationResult = new ClienteEstaConsistenteValidation().Validate(this);
+            return ValidationResult.IsValid;
+        }
+
+        pulic ValidationResult ValidationResult { get; set; }
+        */
     }
 }
