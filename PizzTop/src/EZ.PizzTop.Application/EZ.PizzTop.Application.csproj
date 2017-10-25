@@ -63,6 +63,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <ProjectReference Include="..\EZ.PizzTop.Domain\EZ.PizzTop.Domain.csproj">
+      <Project>{D2448CD3-DCA5-4D4E-867E-5C2BB20E9E73}</Project>
+      <Name>EZ.PizzTop.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EZ.PizzTop.Infra.Data\EZ.PizzTop.Infra.Data.csproj">
       <Project>{69551DA3-BB40-4A9C-B984-DC132D9FE287}</Project>
       <Name>EZ.PizzTop.Infra.Data</Name>
