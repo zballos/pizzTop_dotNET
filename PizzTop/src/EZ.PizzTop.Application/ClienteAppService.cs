@@ -29,10 +29,10 @@ namespace EZ.PizzTop.Application
             var clienteReturn = _clienteService.Adicionar(cliente);
             var clienteViewModel = Mapper.Map<Cliente, ClienteViewModel>(clienteReturn);
 
-            //if (!clienteReturn.ValidationResult.IsValid)
-            //{
-            //    return clienteViewModel;
-            //}
+            if (!clienteReturn._validationResult.IsValid)
+            {
+                return clienteViewModel;
+            }
 
             Commit();
             return clienteViewModel;
