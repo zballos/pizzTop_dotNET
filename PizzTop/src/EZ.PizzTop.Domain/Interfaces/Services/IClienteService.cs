@@ -20,6 +20,6 @@ namespace EZ.PizzTop.Domain.Interfaces.Services
 
         Cliente ObterPorTelefone(string telefone);
 
-        //Cliente ObterPorEmail(string email);
+        Cliente ObterPorEmail(string email);
     }
 }

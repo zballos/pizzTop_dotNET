@@ -6,7 +6,7 @@ namespace EZ.PizzTop.Domain.Interfaces.Repository
     {
         Cliente ObterPorCPF(string cpf);
 
-        //Cliente ObterPorEmail(string email);
+        Cliente ObterPorEmail(string email);
 
         Cliente ObterPorTelefone(string telefone);
     }
