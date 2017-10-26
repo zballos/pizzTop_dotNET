@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EZ.PizzTop.UI.MVC", "src\EZ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EZ.PizzTop.Application", "src\EZ.PizzTop.Application\EZ.PizzTop.Application.csproj", "{120F4E49-BA40-4A0B-9BAB-680355933246}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EZ.PizzTop.Infra.CrossCutting.IoC", "src\EZ.PizzTop.Infra.CrossCutting.IoC\EZ.PizzTop.Infra.CrossCutting.IoC.csproj", "{667ADC1E-834E-49C7-89B2-A5E0CBE27660}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{120F4E49-BA40-4A0B-9BAB-680355933246}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{120F4E49-BA40-4A0B-9BAB-680355933246}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{120F4E49-BA40-4A0B-9BAB-680355933246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{667ADC1E-834E-49C7-89B2-A5E0CBE27660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667ADC1E-834E-49C7-89B2-A5E0CBE27660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667ADC1E-834E-49C7-89B2-A5E0CBE27660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667ADC1E-834E-49C7-89B2-A5E0CBE27660}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{69551DA3-BB40-4A9C-B984-DC132D9FE287} = {A2B38DC5-F238-4900-9F8F-29D1F02510B6}
 		{479CB1CD-5897-42FF-878F-D6D9712E2D27} = {CB27B52B-9BA8-480F-882F-480E681B2503}
 		{120F4E49-BA40-4A0B-9BAB-680355933246} = {A0F9FBC5-C68B-4926-874C-BB89FEB318D4}
+		{667ADC1E-834E-49C7-89B2-A5E0CBE27660} = {9386D95D-342E-495D-B627-39F731D3A3CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BCAD2C8F-6495-47BB-BEE9-7D6EC5DE87EE}
