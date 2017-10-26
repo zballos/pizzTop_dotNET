@@ -13,6 +13,11 @@ namespace EZ.PizzTop.Infra.Data.Repository
             return Buscar(c => c.CPF == cpf).FirstOrDefault();
         }
 
+        public Cliente ObterPorEmail(string email)
+        {
+            return Buscar(c => c.Email == email).FirstOrDefault();
+        }
+
         public Cliente ObterPorTelefone(string telefone)
         {
             return Buscar(c => c.Telefone == telefone).FirstOrDefault();
