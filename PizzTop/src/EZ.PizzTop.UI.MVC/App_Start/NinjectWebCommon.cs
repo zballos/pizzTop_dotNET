@@ -1,3 +1,4 @@
+
 [assembly: WebActivatorEx.PreApplicationStartMethod(typeof(EZ.PizzTop.UI.MVC.App_Start.NinjectWebCommon), "Start")]
 [assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(EZ.PizzTop.UI.MVC.App_Start.NinjectWebCommon), "Stop")]
 
